@@ -1,0 +1,19 @@
+.ProductCard {
+    border: 1px solid black;
+    width: 18rem;
+    height: 18rem !important;
+    background-color: blueviolet;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.ProductCard img {
+    max-width: 100%;
+    height: 200px;
+    display: block;
+
+}
+
+.ProductCard:hover {
+    transform: scale(1.05);
+}

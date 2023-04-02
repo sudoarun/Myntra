@@ -1,0 +1,51 @@
+.userOptions {
+    display: flex;
+
+}
+
+.userOptions i {
+    font-size: 20px;
+    margin-left: 30px;
+    color: black;
+}
+
+.userOptions i:hover {
+    cursor: pointer;
+    color: #e97f99;
+}
+
+.nav-item {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+/* .nav-link:hover {
+    margin-top: 2px;
+    border-bottom: 2px solid #FF3F6C;
+} */
+
+.nav-link {
+    position: relative;
+}
+
+.nav-link::before {
+    transition: 300ms;
+    height: 5px;
+    content: "";
+    position: absolute;
+    background-color: #FF3F6C;
+}
+
+.nav-link-ltr::before {
+    width: 0%;
+    bottom: -20px;
+}
+
+.nav-link-ltr:hover::before {
+    width: 85%;
+}
+
+
+/* .nav-link {
+    position: fixed;
+} */
