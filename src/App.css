@@ -1,8 +1,35 @@
 .form-control {
-    border-radius: 1px !important;
+  border-radius: 1px !important;
 }
 
 .form-control:focus {
-    /* border-color: #FDEDF1 !important; */
-    box-shadow: none !important;
+  /* border-color: #FDEDF1 !important; */
+  box-shadow: none !important;
+}
+
+.fs-6-override {
+  font-size: 11px !important;
+}
+
+.cartContainer {
+  padding: 1% 15% !important;
+}
+
+.btn-myntra {
+  background-color: #ff3f6c;
+  color: white;
+  border: none;
+}
+.btn-myntra:hover,
+.btn:hover {
+  color: white;
+  background-color: rgb(238, 26, 107) !important;
+  border: none;
+}
+.myntratext {
+  color: #ff3f6c;
+}
+
+li {
+  list-style-type: none;
 }

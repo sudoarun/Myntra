@@ -28,14 +28,15 @@
 }
 
 .baseForm button {
-    background-color: #FF3F6C;
-    color: white;
-    border: none;
     width: 100%;
     padding: 6px 0px;
     font-weight: 700;
     font-size: 14px;
-
+}
+.btn-myntra{
+    background-color: #FF3F6C;
+    color: white;
+    border: none;
 }
 
 .termConditions {

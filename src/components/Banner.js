@@ -7,7 +7,7 @@ function Banner() {
     }
     return (<>
         <div className='position-relative '>
-            <img src={bann} alt="banner" className='w-75 mx-auto d-block' style={styles.img} />
+            <img src={bann} alt="banner" className='w-100 mx-auto d-block' style={styles.img} />
         </div>
     </>)
 }

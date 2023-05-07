@@ -1,8 +1,7 @@
 .ProductCard {
     border: 1px solid black;
-    width: 18rem;
-    height: 18rem !important;
-    background-color: blueviolet;
+    /* width: 18rem; */
+    height: 20rem !important;
     cursor: pointer;
     transition: all 0.5s;
 }
@@ -16,4 +15,19 @@
 
 .ProductCard:hover {
     transform: scale(1.05);
+}
+
+.cardLink {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.card-body h5{
+    max-width:100%; 
+    overflow:hidden; 
+    text-overflow:ellipsis; 
+    white-space:nowrap;
+}
+.card-body:hover h5{
+    overflow: visible;
 }

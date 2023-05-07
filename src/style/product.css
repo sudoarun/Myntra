@@ -1,0 +1,16 @@
+.wishListBtn:hover{
+    border: 1px solid black !important;
+    color: black !important;
+}
+.wishListBtn{
+    color: black;
+}
+
+.buySection a{
+    text-decoration: none !important;
+}
+
+.imgSection img{
+    height: 20rem;
+    width: 23rem;
+}
