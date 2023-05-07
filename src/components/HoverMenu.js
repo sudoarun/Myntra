@@ -1,12 +1,13 @@
-export default function HoverMenu() {
+export default function HoverMenu({ color }) {
+  // console.log(name);
   return (
     <div>
-      <div className="row p-3 px-5">
+      <div className="row px-5 rounded-0">
         <div className="col-3 px-4 pt-4">
           <div>
-            <span className="myntratext fw-bold">Topwear</span>
+            <span className={`myntratext fw-bold ${color}`}>Topwear</span>
           </div>
-          <div className="mt-2">
+          <div className="mt-2 fw-normal">
             <li>T-Shirts</li>
             <li>Casual Shirts</li>
             <li>Formal Shirts</li>
@@ -17,9 +18,9 @@ export default function HoverMenu() {
         </div>
         <div className="col-3 bg-light px-4 pt-4">
           <div>
-            <span className="myntratext fw-bold">Bottomwear</span>
+            <span className={`myntratext fw-bold ${color}`}>Bottomwear</span>
           </div>
-          <div className="mt-2">
+          <div className="mt-2 fw-normal">
             <li>T-Shirts</li>
             <li>Casual Shirts</li>
             <li>Formal Shirts</li>
@@ -30,9 +31,9 @@ export default function HoverMenu() {
         </div>
         <div className="col-3 px-4 pt-4">
           <div>
-            <span className="myntratext fw-bold">Footwear</span>
+            <span className={`myntratext fw-bold ${color}`}>Footwear</span>
           </div>
-          <div className="mt-2">
+          <div className="mt-2 fw-normal ">
             <li>T-Shirts</li>
             <li>Casual Shirts</li>
             <li>Formal Shirts</li>
@@ -43,9 +44,11 @@ export default function HoverMenu() {
         </div>
         <div className="col-3 bg-light px-4 pt-4">
           <div>
-            <span className="myntratext fw-bold">Sports & Active Wear</span>
+            <span className={`myntratext fw-bold ${color}`}>
+              Sports & Active Wear
+            </span>
           </div>
-          <div className="mt-2">
+          <div className="mt-2 fw-normal">
             <li>T-Shirts</li>
             <li>Casual Shirts</li>
             <li>Formal Shirts</li>

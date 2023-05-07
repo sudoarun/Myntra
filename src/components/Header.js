@@ -33,7 +33,7 @@ function Header() {
               >
                 MEN
               </a>
-              <div className="dropdown-menu">
+              <div className="dropdown-menu rounded-0 pt-0 w-100">
                 <HoverMenu />
               </div>
             </li>
@@ -45,8 +45,8 @@ function Header() {
               >
                 WOMEN
               </a>
-              <div className="dropdown-menu">
-                <HoverMenu />
+              <div className="dropdown-menu rounded-0 pt-0 w-100">
+                <HoverMenu color="text-warning" />
               </div>
             </li>
             <li className="nav-item">
@@ -57,8 +57,8 @@ function Header() {
               >
                 KIDS
               </a>
-              <div className="dropdown-menu">
-                <HoverMenu />
+              <div className="dropdown-menu rounded-0 pt-0 w-100">
+                <HoverMenu color={"text-success"} />
               </div>
             </li>
             <li className="nav-item">
@@ -69,8 +69,8 @@ function Header() {
               >
                 HOME & LIVING
               </a>
-              <div className="dropdown-menu">
-                <HoverMenu />
+              <div className="dropdown-menu rounded-0 pt-0 w-100">
+                <HoverMenu color={"text-info"} />
               </div>
             </li>
             <li className="nav-item">
@@ -81,8 +81,8 @@ function Header() {
               >
                 BEAUTY
               </a>
-              <div className="dropdown-menu">
-                <HoverMenu />
+              <div className="dropdown-menu rounded-0 pt-0 w-100">
+                <HoverMenu color={"text-primary"} />
               </div>
             </li>
           </ul>
